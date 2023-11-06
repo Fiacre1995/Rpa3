@@ -11,7 +11,7 @@ Documentation    Premiere page de robot framework
 test case
     Ouvrir navigateur
     Connexion
-    Capture d'ecran
+    #Capture d'ecran
 *** Keywords ***
 Ouvrir navigateur
     open browser    https://www.google.com/     firefox
