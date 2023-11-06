@@ -13,10 +13,10 @@ def ma_fonction():
         print(f"Erreur lors de l'exécution du script Robot Framework : {e}")
 
 # Créez un objet de planification
-planification = schedule.every(1).minutes  # Exécuter toutes les 1 minute
+#planification = schedule.every(1).minutes  # Exécuter toutes les 1 minute
 
 # Planifiez l'exécution de la fonction
-planification.do(ma_fonction)
+#planification.do(ma_fonction)
 
 # Vous pouvez également planifier d'autres tâches à des intervalles différents
 # Exemple : exécutez une autre fonction toutes les 30 minutes
@@ -27,6 +27,6 @@ planification.do(ma_fonction)
 #schedule.every().day.at("08:00").do(fonction_quotidienne)
 
 # Boucle principale pour maintenir le script en cours d'exécution
-while True:
-    schedule.run_pending()
-    time.sleep(1)  # Attendez une seconde entre les vérifications de planification
+#while True:
+    #schedule.run_pending()
+    #time.sleep(1)  # Attendez une seconde entre les vérifications de planification
