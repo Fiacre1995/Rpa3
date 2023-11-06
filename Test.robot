@@ -15,7 +15,7 @@ test case
 *** Keywords ***
 Ouvrir navigateur
     open browser    https://www.google.com/     firefox
-    page should contain    Ggle
+    page should contain    Google
     maximize browser window
     input text    //*[@id="APjFqb"]     orangehrm testing
     Mouse Down    class=CcAdNb
